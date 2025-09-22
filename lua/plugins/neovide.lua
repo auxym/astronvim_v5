@@ -12,6 +12,8 @@ return {
         guifont = "JetBrainsMonoNL Nerd Font:h11",
       },
       g = { -- configure vim.g variables
+        -- Disable animated cursor trail
+        neovide_cursor_trail_size = 0,
         -- configure scaling
         -- neovide_scale_factor = 1.0,
         -- configure padding
